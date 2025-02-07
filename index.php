@@ -1845,7 +1845,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         function connectWebSocket() {
             try {
                 // WebSocket 연결 대상 서버
-                socket = new WebSocket('ws://192.168.1.133:30000');
+                socket = new WebSocket('ws://192.168.0.111:30000');
 
                 // WebSocket 연결 성공 로직
                 socket.onopen = function() {
